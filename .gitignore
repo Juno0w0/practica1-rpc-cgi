@@ -1,0 +1,11 @@
+# Artefactos de compilación de módulos SELinux
+*.mod
+*.pp
+
+# Caché de idempotencia generada en runtime (no versionar)
+rpc-calc-cache/
+
+# Temporales del editor / sistema
+*~
+*.swp
+.DS_Store
